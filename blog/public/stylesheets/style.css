@@ -1,0 +1,199 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body {
+  font: 14px/1.3 'Arial','Microsoft YaHei';
+  background-color: rgb(240,240,240);
+}
+
+
+.clearfix{
+  overflow: hidden;
+}
+
+header{
+  width: 100%;
+  height: 80px;
+  background-color: rgb(30,27,26);
+  color: white;
+}
+
+.header_container{
+  width: 75%;
+  margin: 0 auto;
+  height: 80px;
+  line-height: 80px;
+}
+.header_container h1{
+  font-size: 22px;
+}
+.header_container .searchbar{
+  float: right;
+  overflow: hidden;
+}
+
+.header_container .searchbar  .search_icon{
+  margin-left: -22px;
+}
+.header_container form input{
+  background-color: #EFEFEF;
+  height: 25px;
+  padding-left: 6px;
+  font-size: 13px;
+}
+.title{
+  display: inline;
+}
+
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: rgb(44,40,39);
+  color: #AAA;
+}
+
+.nav_container{
+  width: 75%;
+  margin: 0 auto;
+  height: 50px;
+  line-height: 50px;
+}
+
+.nav_container span a{
+  text-decoration: none;
+  padding: 8px 12px 11px;
+  color: #AAA;
+  font-size: 14px;
+}
+
+.content{
+  width: 100%;
+  background-color: rgb(240,240,240);
+  padding-top: 20px;
+}
+
+.content_container{
+  width: 75%;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 20px;
+  overflow: auto;
+  border: 1px solid #d3d1c7;
+  background: #F5F5F5;
+}
+
+article{
+  float: left;
+  width: 60%;
+}
+
+.article_title a{
+  color: #313428;
+  text-decoration: none;
+}
+
+.article_title a:hover{
+  color: brown;
+  font-size: 22px;
+}
+.article_info{
+  color:#808080;
+}
+.article_info .tag_icon,.time_icon,.view_icon,.like_icon{
+  margin-right: 5px;
+}
+
+.article_info .like{
+  margin-left: 10px;
+}
+.article_info .like:hover{
+  cursor: pointer;
+}
+aside{
+  float: right;
+  width:40% ;
+}
+
+.date{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/*设置超出范围自动隐藏*/
+.article_content{
+  overflow: hidden;
+  width:80%;
+  height:50px;
+  line-height:25px;
+  text-indent: 2em;
+  margin-top: 10px;
+  padding: 1px 0 3px;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.content_info{
+  width:80%;
+  line-height:25px;
+  text-indent: 2em;
+  margin-top: 10px;
+  padding: 1px 0 3px;
+  word-wrap: break-word;
+}
+.article_content p{
+  color: #333;
+}
+.post_message{
+  margin-top: 20px;
+  color: green;
+}
+
+aside .outer_list,.inner_list{
+  list-style: none;
+}
+
+aside .outer_list .about,.demo{
+  margin-bottom: 20px;
+  border: 1px solid #d3d1c7;
+  background-color: white;
+}
+
+aside .outer_list h5{
+  color: #333;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 10px;
+  background:#EFEFEF;
+  border-bottom: 1px solid #CCC;
+}
+
+aside .inner_list{
+  padding: 10px;
+}
+
+aside .inner_list li{
+  font-size: 20px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #d3d1c7 ;
+}
+
+aside .inner_list li span{
+  color: #AAA;
+  font-size: 17px;
+}
+
+aside .inner_list .github_icon,.email_icon,.weixin_icon{
+  margin-right: 10px;
+}
+
+aside a{
+  text-decoration: none;
+  color: #AAA;
+  font-size: 17px;
+}
+aside a:hover{
+  color: brown;
+}
+

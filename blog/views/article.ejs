@@ -1,0 +1,15 @@
+<%- include header %>
+
+<h2 class="article_title"><a><%= post.title %></a></h2>
+<div class="article_info">
+    <div class="date"><i class="fa fa-clock-o time_icon" aria-hidden="true"></i><%= post.createTime %></div>
+    <div class="tag"><i class="fa fa-tag tag_icon" aria-hidden="true"></i><%= post.tag %></div>
+</div>
+<div class="content_info"><%- post.content %></div>
+<div class="article_info">
+    <span><i class="fa fa-eye view_icon" aria-hidden="true"></i><%= post.viewNum %></span>
+    <span class="like" data-id="<%= post._id %>"><i class="fa fa-thumbs-o-up like_icon" aria-hidden="true"></i><%= post.likeNum %></span>
+</div>
+<br/>
+<br/>
+<%- include footer %>

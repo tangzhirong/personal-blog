@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<header>
+    <div class="header_container">
+        <h1 class="title"><%= title %> | MIND HACKS</h1>
+        <span class="searchbar">
+            <form action="/search" method="GET">
+                <input type="text" name="keyword" placeholder="SEARCH" class="search" />
+                <i class="fa fa-search search_icon" aria-hidden="true"></i>
+            </form>
+        </span>
+
+    </div>
+
+</header>
+
+<nav>
+    <div class="nav_container">
+        <span><a title="主页" href="/">主页</a></span>
+        <span><a title="Html" href="/tag/html">HTML</a></span>
+        <span><a title="Css" href="/tag/css">CSS</a></span>
+        <span><a title="JavaScript" href="/tag/javascript">JavaScript</a></span>
+        <span><a title="NodeJS" href="/tag/nodejs">NodeJS</a></span>
+        <span><a title="Python" href="/tag/python">Python</a></span>
+        <span><a title="Frame" href="/tag/frame">前端框架</a></span>
+        <span><a title="Util" href="/tag/util">前端工具</a></span>
+        <span><a title="Algorithm" href="/tag/algorithm">算法</a></span>
+        <span><a title="Other" href="/tag/other">其他</a></span>
+    </div>
+</nav>
+
+<div class="content">
+    <div class="content_container">
+        <article>
+
+

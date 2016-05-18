@@ -1,0 +1,24 @@
+<%- include header %>
+<form method="post" action="/post_article">
+    标题:<br />
+    <input type="text" name="title" /><br />
+    正文:<br />
+    <textarea name="post" rows="20" cols="100"></textarea><br />
+    标签:<br />
+    <select name="tag">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="javascript">JavaScript</option>
+        <option value="nodejs">NodeJS</option>
+        <option value="python">Python</option>
+        <option value="frame">前端框架</option>
+        <option value="util">前端工具</option>
+        <option value="algorithm">算法</option>
+        <option value="other">其他</option>
+    </select>
+    <br />
+    <br />
+    <input type="submit" value="发表" />
+    <div class="post_message"><%= success %></div>
+</form>
+<%- include footer %>
